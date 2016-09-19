@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="menuApp">
+	<head>
+		<meta charset="UTF-8">
+		<title>Module 1 - Final Exercise</title>
+		<!-- Include Bootstrap -->
+        	<link rel="stylesheet"
+              	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+              	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+              	crossorigin="anonymous">
+            <!-- Include JS files -->
+            <script src="js/angular/angular.min.js"></script>
+            <script src="js/app.js"></script>
+            <!-- Include stylesheets -->
+            <link rel="stylesheet" href="css/styles.css">
+	</head>
+
+	<body ng-controller="FoodCtrl">
+		<div class="container marginTop">
+			<div class="col-md-6 col-md-offset-3">
+				<input type="text" class="form-control" ng-model="food"> Consider empty item (, ,)
+
+				<button type="submit" class="btn btn-primary" ng-click="checkMenu()" class="btn"> Check if too much! </button>	
+
+				<br> <hr> <br>
+				<div class="well">
+					<p class="resText"> {{ res }} </p>	
+				</div>	
+			</div>
+		</div>
+	</body>
+</html>

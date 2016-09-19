@@ -1,0 +1,16 @@
+.resText {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.btn {
+	margin-top: 20px;
+	display: block; 	
+ 	margin-left: auto;
+  	margin-right: auto;
+}
+
+.marginTop {
+	margin-top: 100px;
+}
